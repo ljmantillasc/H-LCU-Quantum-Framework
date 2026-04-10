@@ -15,9 +15,9 @@ H-LCU is a hierarchical framework for representing quantum operators based on re
   - **Haar-random Matrices:** Comparative analysis of entropy and compressibility.
 
 ## 📂 Repository Structure
-- `/core`: The recursive H-LCU algorithm and connectivity matrix (Aµ) logic.
-- `/benchmarks`: Scripts to reproduce the TFIM and Toeplitz compression results.
-- `/scripts`: Tools for visualizing the hierarchical sparsity patterns.
+- `lcu_colab_reporte.py`: Main executable script (compatible with Google Colab/Jupyter). Includes the core H-LCU algorithm, TFIM benchmarks, and automated reporting tools.
+- `README.md`: Documentation and usage instructions.
+- `LICENSE`: MIT License.
 
 ## 📜 Citation
 Luis J. M. Santa Cruz, Luis F. Faina, and João H. S. Pereira. "Hierarchical Linear Combination of Unitaries (H-LCU): A Recursive Multi-scale Framework for Scalable Quantum Operator Decomposition". *Scientific Reports* (2026).
